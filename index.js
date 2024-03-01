@@ -84,4 +84,5 @@ app.post("/user/update", async (req, res) => {
 });
 
 app.listen(port, () => {
+  console.log('启动成功, 端口:3000');
 });
